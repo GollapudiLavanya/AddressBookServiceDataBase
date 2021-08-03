@@ -31,3 +31,8 @@ select * from AddressBookTable where city='Guntur' or State='AndhraPradesh';
 
 ------ UC7:Count of City and State------
 Select Count(*) As Count,City,State from AddressBookTable group by City,State;
+
+------ UC8:Sort the name alphabetically using city------
+Insert into AddressBookTable 
+values('Sai','T','Benz Circle','Chithoor','AndhraPradesh',534223,9977665544,'Sai@gamil.com');
+select * from AddressBookTable where city='Chithoor' order by FirstName;
