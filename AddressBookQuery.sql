@@ -19,3 +19,6 @@ Insert into AddressBookTable(FirstName,LastName,Address,City,State,zip,PhoneNumb
 values('Sowmya','N','Nehru Nagar','Chithoor','AndhraPradesh',523226,9854631890,'Sowmya@gmail.com'),
 ('Hema','A','Gandhi Nagar','Ongole','AndhraPradesh',523001,6758437890,'Hema@gamil.com'),
 ('Neelu','G','O Lane','Guntur','AndhraPradesh',542336,7834657843,'Neelu@gmail.com');
+
+------ UC4:Update Values in Table ------
+update AddressBookTable set Email='Hema123@gmail.com' where FirstName='Hema';
