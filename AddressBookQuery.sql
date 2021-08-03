@@ -45,3 +45,8 @@ update AddressBookTable set AddressBookName ='Family',RelationType ='Family' whe
 
 ----------UC10:Count the values using address book type -----------
 select RelationType,COUNT(RelationType) as Count from AddressBookTable group by RelationType
+
+----------UC11:Insert the values into table for each type -----------
+Insert into AddressBookTable 
+values('Pavani','D','hgth line','S Nagar','Delhi',600068,93839284839,'Pavani@gamil.com','Office','Profession'),
+('Suma','A','klmn lane','P Road','Mumbai',600068,83938392848,'Suma@gamil.com','Friends','Friend');
