@@ -22,3 +22,6 @@ values('Sowmya','N','Nehru Nagar','Chithoor','AndhraPradesh',523226,9854631890,'
 
 ------ UC4:Update Values in Table ------
 update AddressBookTable set Email='Hema123@gmail.com' where FirstName='Hema';
+
+----- UC5:Delete Values in Table ------
+delete AddressBookTable where FirstName='Hema';
